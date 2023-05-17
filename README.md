@@ -7,7 +7,7 @@ This readme is divided into the different hardware that the code can be used for
 
 **If you want to use an IDE to run your MicroPython code, check out [Thonny](https://thonny.org) and its tutorial [here](https://learn.adafruit.com/circuitpython-libraries-on-micropython-using-the-raspberry-pi-pico/micropython-installation). This is the recommened method for beginners.**
 
-**General Prerequisites**
+**General Prerequisites**  
 `adafruit-ampy` *Install via Python PIP* `pip3 install adafruit-ampy`   
 Raspberry Pi Pico set up with MicroPython firmware
 
