@@ -1,6 +1,5 @@
 from pico_neopixel import Neopixel
 from machine import Timer
-import random
 import time
 
 pixels = 280
