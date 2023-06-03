@@ -32,19 +32,20 @@ def contract():
 
 def expand():
     global end, begin
-    end += 1
-    time.sleep(0.1)
-    strip.clear()
-    strip.set_pixel_line_gradient(begin, end, gradient[0], gradient[1])
-    strip.show()
-    end += 1
-    time.sleep(0.1)
-    strip.clear()
-    strip.set_pixel_line_gradient(begin, end, gradient[0], gradient[1])
-    strip.show()
-    if end > pixels:
+    if end + 2 > pixels:
         begin = 0
         end = 5
+    end += 1
+    time.sleep(0.1)
+    strip.clear()
+    strip.set_pixel_line_gradient(begin, end, gradient[0], gradient[1])
+    strip.show()
+    end += 1
+    time.sleep(0.1)
+    strip.clear()
+    strip.set_pixel_line_gradient(begin, end, gradient[0], gradient[1])
+    strip.show()
+
 
 expand_timer = Timer()
 contract_timer = Timer()
