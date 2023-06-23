@@ -5,10 +5,13 @@
 ## What is this?
 As mentioned above, this repository has code examples for different devices you may be using in your projects. You will most likely be using the Raspberry Pi Pico. Code examples for the Pico can be found in this repository.
 
+*All devices will have necessary software pre-installed*
+
 ## Devices
 
 ### Raspberry Pi Pico
-For coding on the Raspberry Pi Pico, you will most likely be using [Thonny](thonny.org), a development IDE, to upload and run files on the Pico.
+For coding on the Raspberry Pi Pico, you will be using [CircuitPython](https://circuitpython.org). CircuitPython is a variant of the [Python programming language](https://python.org). 
 
-> If you need help installing Thonny, or other help with the Raspberry Pi Pico, use [this official tutorial](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/2) from the Raspberry Pi Foundation
+> Code for the Raspberry Pi Pico using CircuitPython can be found here under: Raspberry Pi Pico → examples → CircuitPython
 
+**Any code editor can be used, however, as recommened by CircuitPython, beginners should use the [Mu Python editor](https://codewith.mu/).**
